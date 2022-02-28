@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   min-height: 75vh;
-  width: 65vw;
+  width: 534px;
   margin: 1.4em auto;
   border-radius: 25px;
   padding: 1rem;
@@ -26,12 +26,12 @@
   display: flex;
   justify-content: end;
 }
-small, #currency{
-  color:808080;
+small,
+#currency {
+  color: 808080;
 }
 .cake {
   margin-right: 0.5rem;
-
 }
 
 /* The switch - the box around the slider */
@@ -122,7 +122,6 @@ input::placeholder {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 2rem;
-  
 }
 .multiplier {
   display: flex;
@@ -150,8 +149,6 @@ input::placeholder {
   cursor: pointer;
   font-weight: 700;
 }
-
-
 
 .anable-apy {
   width: 100%;
@@ -181,10 +178,9 @@ input::placeholder {
   font-weight: 900;
   margin: 0.2rem auto;
   margin-left: 0;
-  border: 2px solid #f7e14e ;
-   
+  border: 2px solid #f7e14e;
 }
-.roi-output-forpen{
+.roi-output-forpen {
   padding: 1rem;
   width: 100%;
   border-radius: 15px;
@@ -195,11 +191,11 @@ input::placeholder {
   margin-left: 0;
   border: 2px solid rgba(68, 66, 66, 0.425);
 }
-.pencil, .pencil-check{
+.pencil,
+.pencil-check {
   opacity: 0.6;
-
 }
-.roi-output-pencil{
+.roi-output-pencil {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -209,12 +205,12 @@ input::placeholder {
   flex-direction: row;
   justify-content: space-between;
 }
-.pencil button{
+.pencil button {
   border: none;
   background-color: #f9fafb;
   cursor: pointer;
 }
-.pencil-check button{
+.pencil-check button {
   border: none;
   background-color: #f9fafb;
   cursor: pointer;
@@ -223,24 +219,24 @@ input::placeholder {
 .hide-details {
   width: 100%;
   text-align: center;
-  padding-top: .6em;
-  
+  padding-top: 0.6em;
 }
-.show-details{
+.show-details {
   width: 100%;
   text-align: center;
-  padding-top: .6em;
+  padding-top: 0.6em;
 }
-.hide-details button, .show-details button{
-border: none;
-background-color: #fefeff;
-cursor: pointer;
+.hide-details button,
+.show-details button {
+  border: none;
+  background-color: #fefeff;
+  cursor: pointer;
 }
 .apy {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 .6rem;
+  padding: 0 0.6rem;
 }
 #colour {
   color: #f7e24e;
@@ -256,34 +252,32 @@ cursor: pointer;
   padding: 0.4rem;
   scroll-behavior: smooth;
 }
-.apply-cancel-btn{
+.apply-cancel-btn {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
-.apply-btn{
+.apply-btn {
   background-color: #000;
   color: #f9fafb;
-  padding: .7em 6em;
-  border-radius: 20px; 
-
+  padding: 0.7em 6em;
+  border-radius: 20px;
 }
-.cancel-btn{
-  padding: .7em 6em;
+.cancel-btn {
+  padding: 0.7em 6em;
   background-color: #f9fafb;
   border-radius: 20px;
 }
 
 @media screen and(max-device-width: 600px) {
-  .apply-cancel-btn{
+  .apply-cancel-btn {
     display: flex;
     flex-direction: column;
   }
- .apply-btn{
-   padding: .7em 4em;
- } 
- .cancel-btn{
-   padding: .7em 4em;
-}
-
+  .apply-btn {
+    padding: 0.7em 4em;
+  }
+  .cancel-btn {
+    padding: 0.7em 4em;
+  }
 }
